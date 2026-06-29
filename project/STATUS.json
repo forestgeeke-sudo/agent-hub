@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-06-29T18:57:42Z",
+  "mode": "dry_run",
+  "active_task_id": null,
+  "last_cycle": {
+    "id": "C-0061",
+    "outcome": "approval_paused",
+    "ended_at": "2026-06-29T18:57:42Z"
+  },
+  "blockers": [],
+  "workers": {
+    "mock_worker": "available",
+    "codex": "unknown",
+    "claude": "unknown"
+  },
+  "stop_requested": false
+}

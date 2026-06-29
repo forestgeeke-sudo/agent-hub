@@ -1,0 +1,15 @@
+schema_version: 1
+defaults:
+  planner: mock_planner
+  max_retries: 1
+by_task_type:
+  code_edit: { primary: codex, fallbacks: [claude] }
+  refactor: { primary: codex, fallbacks: [claude] }
+  docs: { primary: codex, fallbacks: [claude] }
+  planning: { primary: mock_worker, fallbacks: [] }
+  scrape: { primary: local_script, fallbacks: [] }
+  test: { primary: local_script, fallbacks: [] }
+worker_selection:
+  prefer_available: true
+  avoid_limited: true
+  on_all_unavailable: safe_stop

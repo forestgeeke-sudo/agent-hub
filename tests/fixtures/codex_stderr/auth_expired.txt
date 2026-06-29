@@ -1,0 +1,3 @@
+Codex CLI could not start the session.
+Not authenticated: session expired. Please log in with codex login.
+No workspace files were changed.

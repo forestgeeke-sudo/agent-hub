@@ -1,0 +1,3 @@
+Codex CLI failed while applying the requested edit.
+Patch context did not match the target file.
+Exit status: 2.

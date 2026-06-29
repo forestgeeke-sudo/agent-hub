@@ -1,0 +1,29 @@
+schema_version: 1
+tasks:
+- id: T-0001
+  title: Update sprint planning notes
+  description: 'Planning task to document current sprint priorities in DECISION_LOG
+    and confirm BACKLOG/STATUS are consistent.
+
+    '
+  type: planning
+  risk_tier: 1
+  priority: 1
+  target_folder: project
+  suggested_worker: mock_worker
+  depends_on: []
+  status: done
+  created_at: '2026-06-26T14:00:00Z'
+- id: T-0002
+  title: Add a docstring to utils.format_date
+  description: 'Add a one-line docstring to utils.format_date; do not change behavior.
+
+    '
+  type: docs
+  risk_tier: 2
+  priority: 2
+  target_folder: workspace/example
+  suggested_worker: codex
+  depends_on: []
+  status: paused
+  created_at: '2026-06-26T14:00:00Z'

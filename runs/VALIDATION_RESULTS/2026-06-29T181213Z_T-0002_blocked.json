@@ -1,0 +1,8 @@
+{
+  "task_id": "T-0002",
+  "type": "approval_blocked",
+  "status": "queued",
+  "request_id": "A-0001",
+  "tier": 2,
+  "recorded_at": "2026-06-29T18:12:13Z"
+}

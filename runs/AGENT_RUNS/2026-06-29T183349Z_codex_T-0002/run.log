@@ -1,0 +1,10 @@
+$ codex exec --sandbox workspace-write --ask-for-approval never 'Add a one-line docstring to utils.format_date; do not change behavior.
+'
+[stderr] error: unexpected argument '--ask-for-approval' found
+[stderr] 
+[stderr]   tip: to pass '--ask-for-approval' as a value, use '-- --ask-for-approval'
+[stderr] 
+[stderr] Usage: codex exec [OPTIONS] [PROMPT]
+[stderr]        codex exec [OPTIONS] <COMMAND> [ARGS]
+[stderr] 
+[stderr] For more information, try '--help'.

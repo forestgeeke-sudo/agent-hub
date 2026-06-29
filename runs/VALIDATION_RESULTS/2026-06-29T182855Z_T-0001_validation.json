@@ -1,0 +1,10 @@
+{
+  "task_id": "T-0001",
+  "task_type": "planning",
+  "passed": true,
+  "checks": [
+    "DECISION_LOG updated"
+  ],
+  "warnings": [],
+  "validated_at": "2026-06-29T18:28:55Z"
+}

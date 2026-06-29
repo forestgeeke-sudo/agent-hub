@@ -1,0 +1,22 @@
+schema_version: 1
+workers:
+  mock_worker:
+    auth_method: none
+    capabilities: [code_edit, docs, planning, routing]
+    status: available
+    command_template: null
+  codex:
+    auth_method: oauth
+    capabilities: [code_edit, docs, refactor]
+    status: available
+    command_template: "codex exec --sandbox workspace-write {task}"
+  claude:
+    auth_method: oauth
+    capabilities: [code_edit, docs, refactor, planning]
+    status: future
+    command_template: "claude {task}"
+  cursor:
+    auth_method: oauth
+    capabilities: [code_edit, refactor]
+    status: future
+    command_template: null

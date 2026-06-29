@@ -1,0 +1,25 @@
+schema_version: 1
+mode: supervised
+approved_folders:
+  - workspace
+  - project
+  - runs
+  - approvals
+auto_execute_max_tier: 1
+approval_required_tiers: [2, 3, 4]
+tier2_preconditions:
+  require_explicit_approval: true
+  require_git_checkpoint: true
+  require_validation: true
+  require_bounded_scope: true
+  forbid_path_substrings: [".env", "secrets", "id_rsa", ".ssh", ".git/config"]
+approval_scope_required_fields:
+  - task_id
+  - tier
+  - target_folder
+  - allowed_files
+  - allowed_worker
+  - expires_at
+approval_timeout_minutes: 30
+stop_file: STOP
+never_send_to_cloud_workers: [".env", "secrets", "credentials", "*.key"]

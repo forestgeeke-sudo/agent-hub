@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Kill switch (runtime-only; presence means "halt")
+STOP
+
+# OS / editor
+.DS_Store
+*.swp
+.~lock.*
+
+# Local editor / agent settings
+.claude/
+
+# Example workspace is tracked; its nested git metadata is not
+workspace/.git/

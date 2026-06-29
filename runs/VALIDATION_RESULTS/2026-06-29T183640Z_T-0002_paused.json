@@ -1,0 +1,9 @@
+{
+  "task_id": "T-0002",
+  "type": "approval_paused",
+  "status": "paused",
+  "reason": "allowed_worker mismatch",
+  "request_id": "A-0001",
+  "tier": 2,
+  "recorded_at": "2026-06-29T18:36:40Z"
+}

@@ -1,0 +1,3 @@
+Codex CLI request failed.
+The account has reached a temporary rate limit. Please retry later.
+HTTP status: 429 too many requests.
